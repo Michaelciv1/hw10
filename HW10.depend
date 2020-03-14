@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1584162555 source:c:\users\michael-gpc\documents\code blocks work\hw10\main.cpp
+	<iostream>
+	"NameList.h"
+
+1584162597 source:c:\users\michael-gpc\documents\code blocks work\hw10\namelist.cpp
+	"NameList.h"
+
+1584160659 c:\users\michael-gpc\documents\code blocks work\hw10\namelist.h
+	<iostream>
+
