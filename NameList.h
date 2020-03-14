@@ -15,7 +15,7 @@ class NameList
 
         ListNode *head;
     public:
-        NameList() { head = nullptr; }
+        NameList() { head = nullptr; } //sets head to null
         virtual ~NameList();
         void displayList() const;
         void insertNode(string, string);

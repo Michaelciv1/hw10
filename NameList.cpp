@@ -1,5 +1,5 @@
 #include "NameList.h"
-
+//Clears memory by traversing list and deleting each individual node
 NameList::~NameList()
 {
     ListNode *nodePtr;
@@ -15,6 +15,7 @@ NameList::~NameList()
     }
 }
 
+//Displays the final sorted list. Does not return or modify anything.
 void NameList::displayList() const{
     ListNode *nodePtr;
 
@@ -27,6 +28,7 @@ void NameList::displayList() const{
     }
 }
 
+//Takes input from the user and inserts it in alphabetical order by last name using a linked list. No return.
 void NameList::insertNode(string f, string l){
     ListNode *newNode;
     ListNode *nodePtr;
